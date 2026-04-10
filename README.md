@@ -55,3 +55,14 @@ This version refines the approach into a single-page dashboard, emphasizing clar
 - Power BI (Dashboard development & visualization)
 - Power Query (Data transformation)
 - DAX (Data analysis and calculations)
+
+## Dataset
+
+This project uses multiple datasets related to job postings and required skills:
+
+- `job_postings_fact`
+- `company_dim`
+- `skill_dim`
+- `skill_job_dim`
+
+The full dataset (~117MB) is not included in this repository due to file size limitations.
