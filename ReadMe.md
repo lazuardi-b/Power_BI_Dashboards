@@ -1,43 +1,57 @@
-# My Power BI Dashboard Portfolio 📊
-Data Nerds! This repository is a collection of Power BI dashboards I've developed. It tracks my journey in using Power BI, from foundational reports to more advanced interactive analyses, all aimed at turning data into clear, actionable insights.
+# Data Jobs Dashboard Analysis (Power BI)
 
-# Featured Dashboards
-Explore the dashboards below. Each has its own dedicated README with more details on the build process and specific features.
+## Project Overview
 
-## 📈 Data Jobs Dashboard (V1 - Comprehensive Exploration)
+This project explores the data job market using Power BI to analyze trends in job demand, salaries, and required skills. The goal is to transform raw job posting data into clear, interactive dashboards that help users better understand the market and make informed career decisions.
 
-![Data Jobs Dashboard](/images/Project1_Page1.png)
+The repository includes two versions of the dashboard. The first version focuses on exploring the data and building foundational reporting features, while the second version refines the approach with improved data modeling, clearer visual design, and a more focused user experience.
 
-**Key Power BI Skills Utilized:**
-* 🎨 Dashboard Layout & Design
-* ⚙️ Power Query (ETL & Data Shaping)
-* 🔗 Basic Data Modeling (Table Relationships)
-* 🗂️ Implicit Measures & Standard Aggregations
-* 📊 Core Charts (Bar, Line, Area, Column)
-* 🗺️ Map Visualizations for Geospatial Data
-* 🔢 KPI Cards & Detailed Data Tables
-* 🖱️ Interactive Slicers for Filtering
-* ⚪ Buttons & Bookmarks for Page Navigation
-* ➡️ Drill-Through Functionality
+## Project Evolution
 
-[**➡️ View Full Project 1 Details (README)**](/Data_Jobs_v1/README.md)
+This project was developed in two versions, each reflecting a different approach to analyzing the data job market.
 
-## 📊 Data Jobs Dashboard 2.0 (V2 - Single-Page Focus)
+**Version 1 (V1)** focuses on broad exploration. It includes multiple report pages and a variety of visualizations to examine job trends, salaries, and skills from different angles. The goal of this version was to explore the dataset and build a strong foundation in Power BI features such as data transformation, basic modeling, and interactive reporting.
 
-![Data Jobs Dashboard 2.0](/images/Project2_Page1.png)
+**Version 2 (V2)** takes a more refined and focused approach. The dashboard is redesigned into a single-page layout, prioritizing clarity and usability. It emphasizes the most relevant insights, supported by improved data modeling, more intentional visual choices, and a streamlined user experience.
 
-**Key Power BI Skills Utilized (demonstrating progression):**
-* 🎨 Advanced Dashboard Design (Single-Page UX & Optimization)
-* ⚙️ Complex Power Query Transformations
-* 🔗 Star Schema Data Modeling Principles
-* 📊 Explicit DAX Measures (e.g., `CALCULATE`, context modifiers)
-* 📊 Dynamic Visualizations (driven by Parameters/Slicers)
-* ⚙️ Field & Numeric Parameter Implementation for "What-If" Analysis
-* 🗺️ Enhanced Geospatial Insights
-* 🔢 Advanced Card Visualizations
-* 🖱️ Optimized Slicers & Advanced Cross-Filtering Techniques
-* ✨ Report Performance Considerations
+The transition from V1 to V2 reflects a shift from exploration to communication—*moving from building features to designing a more effective and user-centered analytical solution.*
 
-[**➡️ View Full Project 2 Details (README)**](/Data_Jobs_v2/ReadMe.md)
+## Key Improvements (V1 → V2)
 
-Each dashboard linked above has its own detailed `README.md` file within its respective project folder. These offer deeper insights into the project objectives, data sources, specific Power BI techniques employed, and a closer look at the dashboard build.
+- **Simplified user experience:** Transitioned from a multi-page layout to a single-page dashboard, making key insights easier to access and interpret.
+
+- **More focused insights:** Reduced visual clutter by prioritizing the most relevant metrics, improving clarity and decision-making.
+
+- **Improved data modeling:** Applied more structured modeling approaches (e.g., star schema principles) to support more reliable and scalable analysis.
+
+- **Stronger use of DAX:** Introduced more intentional calculations to enhance the depth and flexibility of analysis.
+
+- **Refined visual design:** Improved layout, hierarchy, and visual consistency to create a more intuitive and user-friendly interface.
+
+## Projects
+
+### 📊 Data Jobs Dashboard – Version 1 (Exploratory)
+
+![Dashboard V1](/images/Project1_Page1.png)
+
+This version focuses on providing a broad overview of the data job market. It includes key metrics such as job volume, salary distribution, and hiring trends, along with interactive elements like filters and drill-through for deeper exploration.
+
+The dashboard is structured across multiple pages, allowing users to analyze different aspects of the market, including job trends over time, salary comparisons, job distribution by role, and detailed breakdowns of employment types and hiring platforms.
+
+[➡️ View Full Project V1 Details (README)](/Data_Jobs_v1/README.md)
+
+---
+
+### 📈 Data Jobs Dashboard – Version 2 (Refined)
+
+![Dashboard V2](/images/Project2_Page1.png)
+
+This version refines the approach into a single-page dashboard, emphasizing clarity and usability. It highlights the most important insights through improved data modeling, more focused visualizations, and a streamlined user experience designed for quick understanding.
+
+[➡️ View Full Project V2 Details (README)](/Data_Jobs_v2/ReadMe.md)
+
+## Tools
+
+- Power BI (Dashboard development & visualization)
+- Power Query (Data transformation)
+- DAX (Data analysis and calculations)
